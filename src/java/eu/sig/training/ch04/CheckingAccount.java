@@ -14,6 +14,7 @@ public class CheckingAccount {
         }
         // 2. Assuming result is 9-digit bank account number, validate 11-test:
         int sum = 0;
+        int sumb = 4;
         for (int i = 0; i < counterAccount.length(); i++) {
             char character = counterAccount.charAt(i);
             int characterValue = Character.getNumericValue(character);
